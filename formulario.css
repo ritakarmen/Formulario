@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.BoxContentForm {
+    border: solid 2px #708090;
+    border-radius: 15px;
+    box-shadow: 12px 12px 15px #ABCABC;
+    backgroud: #dcdcdc;
+    margin: 0 auto;
+    width: 400px;
+    padding: 14px;
+}
+
+.BoxContentForm #row1 {
+    width: 100%;
+    height: 140px;
+}
+
+.BoxContentForm label {
+    display: block;
+    font-weigth: bold;
+    text-aligin: right;
+    width: 140px;
+    float: left;
+}
+
+.BoxContentForm input {
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+    border: salid 1px #708090;
+    width: 200px;
+    margin: 2px 0 20px 10px;
+}
+
+.BoxContentForm button {
+    clear: both;
+    margin: 0 auto;
+    width: 100px;
+    height: 31px;
+    background: #1b946c;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 31px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}

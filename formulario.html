@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="boxDescription">
+            <h2 class="titlePrincipal">Lista de maestros</h2>
+            <p class="bloqueDescription">
+                Ingrese los datos de cada maestro, para ser registrado en la base de datos
+            </p>
+        </div>
+        <div id="mainDiv" class="BoxContentForm">
+            <form id="submittableForm" action="#" method="post" style="text-align: center">
+                <div id="row1">
+                    <div>
+                        <label for="name">Nombres</label>
+                        <input class="form-control" type="text" name="name" id="name" />
+                    </div>
+                    <div>
+                        <label for="lastname">Apellidos</label>
+                        <input class="form-control" type="text" name="lastname" id="lastname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="area">Area</label>
+                        <input class="form-control" type="text" name="area" id="area" />
+                    </div>
+
+                </div>
+                <!--<p>
+                    <input type="submit" value="Send" class="btn-button" />
+				</p>-->
+                <button type="submit" name="enviar">Enviar</button>
+            </form>
+        </div>
+        <pre id="output"></pre>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+
+</html>
